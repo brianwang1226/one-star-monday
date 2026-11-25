@@ -1,8 +1,9 @@
+// One Star for Monday: a one-star review of Monday, as if it were a restaurant.
 import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
 const line =
-  "One star. The food was cold, the service was slow, and the waiter (me) showed up late and cried into the soup.";
+  "One star. The food was cold, the service was slow, and the waiter cried into the soup. I was the waiter.";
 
 // The gate allows 1-180 characters and at most 25 words; refuse a bad text.
 if (line.length < 1 || line.length > 180) {
