@@ -1,4 +1,5 @@
 // One Star for Monday: a one-star review of Monday, as if it were a restaurant.
+// The twist is that the reviewer and the waiter are the same person.
 import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
